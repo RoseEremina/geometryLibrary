@@ -23,5 +23,11 @@ public class Circle implements Shape {
         return "Circle";
     }
 
-    public double getRadius() { return radius; }
+    public double getDiameter() {
+        return 2 * radius;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
 }
